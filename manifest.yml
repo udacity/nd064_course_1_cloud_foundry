@@ -1,0 +1,6 @@
+applications:
+- name: python-helloworld 
+  memory: 64M
+  disk_quota: 256M
+  buildpacks: 
+  - python_buildpack
